@@ -1,0 +1,26 @@
+Anomalies rencontré sur le site
+
+https://postimages.org/
+
+généralement
+Peu d'animations
+Certaines photos ne sont pas d'une grande qualité
+Certaines ecriture son trop petites, lien paragraphe...
+Peu de balises semantiques tel que header, main, footer, section...
+
+
+Header
+- logo 
+-- Ecriture trop petites ou peut-etre pour les métadonnées
+
+- Nav 
+-- police non adapté, comme si dirait que ce ne sont pas les memes police
+-- pas d'animations 
+-- Chevron > ? 
+
+Main
+<p> Ecriture trop petite
+- Descriptions de l'agence panthère
+-- Ecritures des card trop petites
+-- Appreciations des clients généralement en bas de la page
+
