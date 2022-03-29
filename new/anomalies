@@ -2,11 +2,80 @@ Anomalies rencontré sur le site
 
 https://postimages.org/
 
-généralement
-Peu d'animations
-Certaines photos ne sont pas d'une grande qualité
-Certaines ecriture son trop petites, lien paragraphe...
-Peu de balises semantiques tel que header, main, footer, section...
+Problèmes visuels 
+
+index.html
+Header
+-- logo 
+-- --  Ecriture trop petites ou peut-etre pour les métadonnées pour le SEO
+
+-- NAV
+-- --  police non adapté, comme si dirait que ce ne sont pas les memes police
+-- -- pas d'animations 
+-- -- Chevron > ? le site est cassé
+
+-- MAIN
+-- -- BLOC SERVICES
+-- -- -- des images qui ont été découper de la maquette sont inséré pour afficher du texte comme pour la description de l'agence
+-- -- -- Ecritures des card trop petites
+-- -- -- Appreciations des clients généralement en bas de la page aussi une image
+-- -- BLOC WHAT I DO
+-- -- -- écriture pratiquement de la meme couleur que le font de l'image
+-- -- -- Le texte de présentation est beaucoup trop petit
+
+-- -- BLOC PORTFOLIO
+-- -- -- le premier texte est une image et non du texte mis dans une balise HTML
+-- -- -- Les images ne sont pas d'un grande qualité
+-- -- -- Les textes de déscription sont beaucoups trop petite
+-- -- -- Le backgroud utiliser interfere avec la lecture du texte #pasterrible
+
+-- -- BLOC CTA
+-- -- -- écriture pratiquement de la meme couleur que le font de l'image pas hyper lisible
+
+-- FOOTER
+-- -- -- Usge de mot clés de la meme couleur que le background pour le réferencement SEO (c'est un hack qui doit etre éviter pour suivre les bonnes pratiques)
+-- -- -- Les liens sont trop vagues et ne possedent pas de mots clés pour les définir
+-- -- -- Pourquoi un voiture.com ou pizza.com 
+-- -- -- Un autre hack consiste a remplir le site de lien pour pouvoir remonter dans le classement SEO (ceci est a évité)
+
+-- SUR MOBILE
+-- -- il ya pas de padding pour les liens
+-- -- il y'a de la place pour mettre les logos en illine-block ou flex
+-- -- les images ne sont pas toutes bien centrer
+
+
+
+
+page2.html
+Beacoups de fichier ne se charges pas surtout les .min.css et min.js
+
+-- Header
+-- -- la barre de navigation n'es pas responsive
+-- -- il y'a un lien fantome dans la navigation
+
+-- Main 
+-- -- page2.html n'est pas vriament un nom de fichier explicite
+
+-- -- Bloc 6
+-- -- -- Hack pour le réferencement SEO avec du texte de la meme couleur que le background
+-- -- Bloc 7
+-- -- -- écriture trop petite pour l'adresse de l'agence
+
+
+-- Footer
+-- -- -- Usge de mot clés de la meme couleur que le background pour le réferencement SEO (c'est un hack qui doit etre éviter pour suivre les bonnes pratiques)
+-- -- -- Les liens sont trop vagues
+-- -- -- Pourquoi un voiture.com ou pizza.com 
+-- -- -- Un autre hack consiste a remplir le site de lien pour pouvoir remonter dans le classement SEO (ceci est a évité)
+
+-- SUR MOBILE
+-- -- texte trop petit
+
+
+
+Problèmes dans le code
+
+Utilisation de div pour les sections et non des balises sémantique tel que nav, header, section...
 
 
 Header
@@ -23,4 +92,9 @@ Main
 - Descriptions de l'agence panthère
 -- Ecritures des card trop petites
 -- Appreciations des clients généralement en bas de la page
+
+-- -- bloc portfolio
+-- -- -- Les extensions des images sont des ".bmp" ces formats sont à évité car il existe des formats bcp plus moderne et compatible full web source https://developer.mozilla.org/fr/docs/Web/Media/Formats/Image_types#bmp
+-- -- -- 
+
 
