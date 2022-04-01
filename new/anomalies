@@ -1,8 +1,27 @@
 Anomalies rencontré sur le site
 
+https://www.photopea.com/
+
 https://postimages.org/
 
+
+10 choses a changé
+-- la taille des images
+-- la meta description du site
+-- la couleur du texte different du background
+-- changer l'appel des fichiers dans contact 
+-- changer le nom de la page 2 en contact sur toutes les pages et changer le nom de la page
+-- mettre les metadonnése t meta description
+-- changer les liens et laisser que les liens correct et en adequation avec le site de l'agence
+-- agrandir la taille de certains textes
+-- enlever les images et mettre du texte html brute a la place
+-- mettre les bonnes balises sémantique
+
+
 Problèmes visuels 
+
+HEAD
+-- -- pas de meta descristions
 
 index.html
 Header
@@ -11,8 +30,9 @@ Header
 
 -- NAV
 -- --  police non adapté, comme si dirait que ce ne sont pas les memes police
--- -- pas d'animations 
+-- -- pas d'animations
 -- -- Chevron > ? le site est cassé
+-- -- Les liens ne contiennent pas le sujet de la page
 
 -- MAIN
 -- -- BLOC SERVICES
@@ -25,7 +45,6 @@ Header
 
 -- -- BLOC PORTFOLIO
 -- -- -- le premier texte est une image et non du texte mis dans une balise HTML
--- -- -- Les images ne sont pas d'un grande qualité
 -- -- -- Les textes de déscription sont beaucoups trop petite
 -- -- -- Le backgroud utiliser interfere avec la lecture du texte #pasterrible
 
@@ -44,10 +63,14 @@ Header
 -- -- les images ne sont pas toutes bien centrer
 
 
+-- images
+-- -- trop lourdes. elles peuvent etre compressés 
+
 
 
 page2.html
 Beacoups de fichier ne se charges pas surtout les .min.css et min.js
+Un problème au niveau du cache. les documents sont retelecherger a chaque visite
 
 -- Header
 -- -- la barre de navigation n'es pas responsive
@@ -62,12 +85,6 @@ Beacoups de fichier ne se charges pas surtout les .min.css et min.js
 -- -- -- écriture trop petite pour l'adresse de l'agence
 
 
--- Footer
--- -- -- Usge de mot clés de la meme couleur que le background pour le réferencement SEO (c'est un hack qui doit etre éviter pour suivre les bonnes pratiques)
--- -- -- Les liens sont trop vagues
--- -- -- Pourquoi un voiture.com ou pizza.com 
--- -- -- Un autre hack consiste a remplir le site de lien pour pouvoir remonter dans le classement SEO (ceci est a évité)
-
 -- SUR MOBILE
 -- -- texte trop petit
 
@@ -77,24 +94,5 @@ Problèmes dans le code
 
 Utilisation de div pour les sections et non des balises sémantique tel que nav, header, section...
 
-
-Header
-- logo 
--- Ecriture trop petites ou peut-etre pour les métadonnées
-
-- Nav 
--- police non adapté, comme si dirait que ce ne sont pas les memes police
--- pas d'animations 
--- Chevron > ? 
-
-Main
-<p> Ecriture trop petite
-- Descriptions de l'agence panthère
--- Ecritures des card trop petites
--- Appreciations des clients généralement en bas de la page
-
--- -- bloc portfolio
--- -- -- Les extensions des images sont des ".bmp" ces formats sont à évité car il existe des formats bcp plus moderne et compatible full web source https://developer.mozilla.org/fr/docs/Web/Media/Formats/Image_types#bmp
--- -- -- 
 
 
