@@ -7,10 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-img {
-    display: inline-block;
-}
-
 a,
 button {
     transition: all .3s ease-in-out;
@@ -20,10 +16,6 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-}
-
-.img-responsive {
-    display: inline-block;
 }
 
 #page-loading-blocs-notifaction {
