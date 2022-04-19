@@ -840,6 +840,12 @@ h4 {
     }
 }
 
+@media (max-width: 768px) {
+    .img-responsive {
+        display: inline-block;
+    }
+}
+
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
